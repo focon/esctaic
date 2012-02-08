@@ -1,8 +1,14 @@
 <% provide(:title, 'Home') %>
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Esctaic | <%= yield(:title) %></title>
+  </head>
+  <body>
     <h1>Esctaic</h1>
     <p>
       This is the home page for the
       <a href="www.esctaic.org/">Esctaic</a>.
     </p>
- 
+  </body>
+</html>
