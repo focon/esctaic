@@ -1,7 +1,8 @@
 module ApplicationHelper
 
- #def logo
-    # Fill in.
+  def logo
+    image_tag("logo.jpg", alt: "Esctaic", class: "round")
+  end
     
   #end	
 
